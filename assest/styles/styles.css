@@ -1,0 +1,8 @@
+.banner{
+
+    background-image: url(../img/158537-la_leyenda_de_zelda-the_legend_of_zelda-la_princesa_zelda-la_leyenda_de_zelda_ocarina_of_time-cadencia_de_hyrule-1920x1080.jpg);
+    background-position: top center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 25%;
+}
