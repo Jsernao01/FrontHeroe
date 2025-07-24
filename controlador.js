@@ -1,3 +1,6 @@
+import { consumirAPI } from "./consumoServicio.js";
+
+
 //referencias al formulario
 
 let nombres = document.getElementById("nombres");
@@ -33,6 +36,17 @@ let datosQueVoyAEnviarAlBack ={
 }
 let datosListosParEnviar = JSON.stringify(datosQueVoyAEnviarAlBack);
 
+console.log(datosListosParEnviar);
 
+//Llamo al consumo
+consumirAPI(datosListosParEnviar)
+.then(function(respuesta){
+Swal.fire({
+        title: "Buen trabajo malparidito!",
+        text: "Hiciste click en el botón gonorreita!",
+        icon: "success"
+});
+
+})
 
 })
