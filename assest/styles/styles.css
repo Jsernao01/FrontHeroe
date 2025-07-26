@@ -1,8 +1,45 @@
-.banner{
+body {
+    background-color: #f8f9fa; 
+}
 
+.banner{
     background-image: url(../img/158537-la_leyenda_de_zelda-the_legend_of_zelda-la_princesa_zelda-la_leyenda_de_zelda_ocarina_of_time-cadencia_de_hyrule-1920x1080.jpg);
     background-position: top center;
     background-size: cover;
     background-attachment: fixed;
-    padding: 25%;
+    padding: 15%; 
+    min-height: 250px; 
+}
+
+
+form {
+    background-color: #ffffff;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; 
+}
+
+.form-label.visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
+.form-check-label {
+    margin-left: .5rem; 
+    font-weight: 500; 
+}
+
+.btn-dark {
+    background-color: #343a40;
+    border-color: #343a40;
+    transition: all 0.3s ease;
+}
+
+.btn-dark:hover {
+    background-color: #495057;
+    border-color: #495057;
+    transform: translateY(-2px); 
 }
